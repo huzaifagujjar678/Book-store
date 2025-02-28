@@ -202,18 +202,9 @@ export default function BookSection({ data }) {
 
                                 {/* div for discription and here we link it with the Description page */}
                                 <div style={{ height: '59px', textDecoration: 'none' }}>
-                                   <Link to={{
+                                 <Link to={{
                                     // giving path
-                                        pathname: '/description',
-                                        // sending data as state to the discription component
-                                        state: {
-                                            book: itm,
-                                            bookname: itm.bookname,
-                                            description: itm.description,
-                                            author: itm.author,
-                                            image: itm.image,
-                                            price: itm.price
-                                        }
+                                        pathname: '/description/'+itm._id,
                                     }} style={{textDecoration:'none'}}>
                                         <p className="my-0 mx-2 py-0" style={{
                                             fontSize: '12px', fontWeight: '700', color: 'white',
