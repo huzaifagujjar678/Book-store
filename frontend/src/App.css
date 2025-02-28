@@ -1,0 +1,18 @@
+.App{
+  background-color: bg-dark;
+  padding: 0;
+  margin: 0;
+}
+.viewBook{
+  outline: none;
+  border: 2px solid white;
+  background: transparent;
+  padding-top:5px ;
+  padding-left:0px ;
+  padding-right:0px ;
+  color: white;
+  width: 30%;
+  font-size: 20px;
+ text-align: center;
+ text-decoration: none;
+}

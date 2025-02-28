@@ -1,0 +1,46 @@
+.customStyle {
+  min-height: 500px;
+  margin: auto !important;
+  /* margin-top: 4vh !important; */
+  padding-top: 50px !important;
+}
+
+.main-cont {
+  min-height: 91vh;
+  margin: auto
+}
+
+.img-cont {
+  height: 420px;
+  width: 320px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 10px rgba(148, 147, 147, 0.5)
+
+}
+
+.img {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px
+}
+
+.bookheading {
+  font-weight: 900
+}
+
+.author {
+  color: silver;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.price {
+  color: yellow;
+  font-size: 30px;
+  font-weight: 700
+}
+.desc-heading{
+  font-size: 22px;
+  font-family: 'emoji';
+} 
